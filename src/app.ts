@@ -11,15 +11,15 @@ class App {
   constructor(controllers: Controller[]) {
     this.app = express();
 
-    this.connectToTheDatabase();
+    // this.connectToTheDatabase();
     this.initializeMiddlewares();
     this.initializeControllers(controllers);
     this.initializeErrorHandling();
   }
 
   public listen() {
-    this.app.listen(process.env.PORT, () => {
-      console.log(`App listening on the port ${process.env.PORT}`);
+    this.app.listen(5000, () => {
+      console.log('App listening on the port 5000');
     });
   }
 
