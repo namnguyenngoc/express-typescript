@@ -13,12 +13,12 @@
     "envalid": "^4.1.4",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.4.0",
-    "mongoose": "^5.13.6",
     "pg": "^7.8.0",
     "reflect-metadata": "^0.1.12",
     "supertest": "^3.4.2",
     "ts-jest": "^23.10.5",
-    "typeorm": "^0.2.11"
+    "typeorm": "^0.2.11",
+    "ts-node": "^7.0.1"
   },
   "devDependencies": {
     "@types/bcrypt": "^3.0.0",
@@ -46,11 +46,6 @@
   },
   "author": "Marcin Wanago",
   "license": "MIT",
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
-  },
   "engines": {
     "node": "14.x",
     "npm": "7.x"
